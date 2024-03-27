@@ -1,0 +1,134 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+body{
+ background-image: url('image2.jpg');
+ background: fuxed;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+h1{
+ position: fixed;
+ background-color: skyblue;
+ height: 70px;
+ width: 100%;
+ z-index: 1;
+}
+.log{
+ font-size: 25px;
+ position: relative;
+ left: 32%;
+ color: white;
+ font-weight: bold;
+ line-height: 70px;
+}
+img{
+ position: relative;
+ height: 65px;
+ width: 90px;
+}
+h2{
+ position: relative;
+ left : 57%;
+}
+.profile{
+ positon: relative;
+ right: 20%;
+ width: 27%;
+ float: left;
+ border-collapse: collapse;
+ table-layout: fixed;
+ background: white;
+ opacity: 0.9;
+}
+.tab{
+ position: relative;
+ float: left;
+ width: 70%;
+ cellspacing: 0;
+ border: 2px solid blue;
+ border-collapse: collapse;
+ table-layout: fixed;
+ background: white;
+ opacity: 0.9;
+}
+ 
+
+td{
+ color: black;
+ padding-top: 2px;
+ padding-bottom: 2px;
+}
+th,td{
+ border: 1px solid blue;
+ padding-top: 2px;
+ table-layout: fixed;
+}
+caption{
+ font-size: 25px;
+ left: 57%
+}
+.attendence{
+ postion: relative;
+ float: left;
+ width: 70%;
+ cellspacing: 0;
+ border: 2px solid blue;
+ border-collapse: collapse;
+ font-size: 20px;
+ table-layout: fixed;
+ background: white;
+ opacity: 0.9;
+}
+.announce{
+ position: relative;
+ left: 35%;
+ width: 27%;
+ font-size: 25px;
+ 
+}
+select{
+ position: relative;
+ left: 27%;
+ font-size: 18px;
+ border: 2px solid blue;
+}
+#leave{
+ left: 27%;
+ width: 27%;
+ font-size: 25px;
+}
+.leave{
+ position: relative;
+ left: 33%;
+ font-size: 25px;
+}
+.btn-group button{
+ position: relative;
+ background-color: skyblue;
+ border: 1px solid blue;
+ color: white;
+ padding: 10px 24px;
+ cursor: pointer;
+ left: 32%;
+}
+.btn1{
+ margin-right: 10px;
+}
+.btn2{
+ margin-right: 10px;
+}
+.btn3{
+ margin-right: 10px;
+}
+.btn4{
+ margin-right: 10px;
+}
+.btn5{
+ margin-right: 10px;
+}
+ 
+
+ 

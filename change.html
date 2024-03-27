@@ -1,0 +1,75 @@
+<!DOCTYPE>
+<html>
+<head>
+<title> Password </title>
+<style>
+body{
+ background-image: url('image1.jpg');
+ background: fuxed;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.change{
+ padding-top: 80px;
+}
+.label_deg{
+ display: inline-block;
+ color: black;
+ width: 150px;
+ text-align: right;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+.reset_form{
+ background-color: white;
+ width: 500px;
+ padding-top: 40px;
+ padding-bottom: 70px;
+}
+.reset{
+ background-color: pink;
+ color: red;
+ font-width: bold;
+ width: 500px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ font-size: 20px;
+}
+
+
+</style>
+</head>
+<body>
+<center>
+<div class="change"> 
+<center class="reset">
+Reset Password
+<form class="reset_form">
+<div>
+<label class="label_deg"> Email id. </label>
+<input type="text" placeholder="email id" name="email id" required>
+</div>
+<div>
+<label class="label_deg"> Old Password: </label>
+<input type="password" placeholder="old password" name="old password" minlength="8" and maxlength="12" required>
+</div>
+<div>
+<label class="label_deg"> New Password: </label>
+<input type="password" placeholder="new password" name="new password" minlength="8" and maxlength="12" required>
+</div>
+<div>
+<label class="label_deg"> Retype Password: </label>
+<input type="password" placeholder="password" name="password" minlength="8" and maxlength="12" required>
+</div>
+<div>
+<button type="button"> Reset </button>
+</div>
+</form>
+</div>
+</center>
+
+
+
+
+</body>
+</html>

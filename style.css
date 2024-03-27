@@ -1,0 +1,33 @@
+body{
+ background-position:center;
+ background-size:cover;
+ background-image: url('lpu2.jpg');
+}
+.form_deg{
+ padding-top: 200px;
+}
+.label_deg{
+ display: inline-block;
+ color: black;
+ width: 100px;
+ text-align: right;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+.login_form{
+ background-color: linen;
+ width: 400px;
+ padding-top: 70px;
+ padding-bottom: 70px;
+}
+.title_deg{
+ background-color: wheat;
+ color: red;
+ font-width: bold;
+ width: 400px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ font-size: 20px;
+}
+
+ 
